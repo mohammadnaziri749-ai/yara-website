@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="یادآوری به‌موقع">
+  <defs>
+    <linearGradient id="hiw2g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5FAF8F" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#5FAF8F" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+  <circle cx="84" cy="70" r="90" fill="url(#hiw2g)"/>
+  <circle cx="330" cy="240" r="56" fill="#5FAF8F" opacity="0.08"/>
+  <!-- ساعت -->
+  <circle cx="152" cy="160" r="52" fill="#ffffff" stroke="#174A46" stroke-width="5"/>
+  <path d="M152 128v32l20 14" fill="none" stroke="#5FAF8F" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- زنگ یادآوری -->
+  <path d="M262 118c0-24-18-42-40-42s-40 18-40 42v34l-14 20h108l-14-20z" fill="#5FAF8F" opacity="0.9" stroke="#174A46" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M206 172a16 16 0 0 0 32 0" fill="none" stroke="#174A46" stroke-width="5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="ثبت مصرف دارو و علائم">
+  <defs>
+    <linearGradient id="hiw3g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5FAF8F" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#5FAF8F" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+  <circle cx="322" cy="76" r="90" fill="url(#hiw3g)"/>
+  <circle cx="72" cy="242" r="54" fill="#5FAF8F" opacity="0.08"/>
+  <!-- کارت ثبت -->
+  <rect x="118" y="72" width="164" height="156" rx="18" fill="#ffffff" stroke="#174A46" stroke-width="5"/>
+  <!-- ضربان -->
+  <path d="M138 150h34l12-26 18 48 14-22h46" fill="none" stroke="#5FAF8F" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="140" y="94" width="70" height="9" rx="4.5" fill="#174A46" opacity="0.45"/>
+  <circle cx="248" cy="196" r="12" fill="#5FAF8F" opacity="0.9" stroke="#174A46" stroke-width="4"/>
+  <path d="M243 196l4 4 7-8" fill="none" stroke="#174A46" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

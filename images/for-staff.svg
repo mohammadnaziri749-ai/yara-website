@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" fill="none">
+  <!-- پس‌زمینه نرم -->
+  <circle cx="76" cy="44" r="122" fill="#5FAF8F" opacity="0.14"/>
+  <circle cx="602" cy="272" r="102" fill="#174A46" opacity="0.07"/>
+  <circle cx="560" cy="62" r="6" fill="#5FAF8F" opacity="0.3"/>
+  <circle cx="120" cy="126" r="4" fill="#174A46" opacity="0.18"/>
+  <circle cx="86" cy="252" r="5" fill="#174A46" opacity="0.16"/>
+
+  <!-- کارت گزارش بیمار -->
+  <rect x="270" y="78" width="200" height="144" rx="20" fill="#FFFFFF" stroke="#174A46" stroke-width="3" stroke-opacity="0.22"/>
+  <circle cx="300" cy="102" r="10" fill="#5FAF8F"/>
+  <rect x="318" y="97" width="76" height="7" rx="3.5" fill="#174A46" opacity="0.18"/>
+  <rect x="318" y="108" width="52" height="6" rx="3" fill="#174A46" opacity="0.12"/>
+
+  <!-- نمودار میله‌ای پیشرفت -->
+  <rect x="298" y="142" width="16" height="44" rx="8" fill="#DCEFE4"/>
+  <rect x="322" y="128" width="16" height="58" rx="8" fill="#5FAF8F" opacity="0.85"/>
+  <rect x="346" y="114" width="16" height="72" rx="8" fill="#174A46" opacity="0.75"/>
+  <path d="M 290 142 L 322 112 L 344 126 L 392 96" stroke="#5FAF8F" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="392" cy="96" r="6" fill="#174A46"/>
+
+  <!-- خط ضربان قلب -->
+  <rect x="282" y="190" width="164" height="24" rx="12" fill="#F2F7F3" stroke="#5FAF8F" stroke-width="2"/>
+  <path d="M 296 202 h 14 l 5 -12 l 6 24 l 8 -30 l 8 30 l 6 -12 h 18" stroke="#174A46" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- نشان صلیب پزشکی -->
+  <circle cx="178" cy="98" r="42" fill="#FFFFFF" stroke="#5FAF8F" stroke-width="4"/>
+  <g transform="translate(158 78) scale(1.7)">
+    <path d="M 12 5.4 v 13.2 M 5.4 12 h 13.2" stroke="#174A46" stroke-width="1.7" stroke-linecap="round"/>
+  </g>
+
+  <!-- نشان گفتگو -->
+  <circle cx="486" cy="150" r="40" fill="#FFFFFF" stroke="#5FAF8F" stroke-width="4"/>
+  <g transform="translate(467 131) scale(1.6)">
+    <rect x="3.4" y="4.4" width="17.2" height="12.8" rx="3.2" stroke="#174A46" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 9.8 17.2 L 7 20 L 7 17.2" stroke="#174A46" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="9.2" cy="10.8" r="0.9" fill="#174A46"/>
+    <circle cx="12" cy="10.8" r="0.9" fill="#174A46"/>
+    <circle cx="14.8" cy="10.8" r="0.9" fill="#174A46"/>
+  </g>
+
+  <!-- تیم درمان -->
+  <circle cx="152" cy="238" r="13" fill="#FFFFFF" stroke="#5FAF8F" stroke-width="3"/>
+  <circle cx="186" cy="224" r="13" fill="#5FAF8F"/>
+  <circle cx="218" cy="238" r="13" fill="#FFFFFF" stroke="#174A46" stroke-width="3"/>
+</svg>

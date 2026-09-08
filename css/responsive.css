@@ -1,0 +1,765 @@
+/* =========================================================
+   استایل ریسپانسیو — تبلت و موبایل
+   ========================================================= */
+
+/* ---------- تبلت ---------- */
+@media (max-width: 992px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  .main-nav {
+    position: fixed;
+    top: 76px;
+    inset-inline: 0;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.25rem;
+    padding: 1.5rem 5%;
+    background: rgba(246, 245, 240, 0.97);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-bottom: 1px solid rgba(23, 74, 70, 0.08);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-12px);
+    transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease;
+  }
+
+  .main-nav.open {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.25rem;
+  }
+
+  .nav-link {
+    display: block;
+    padding: 0.65rem 0.25rem;
+    font-size: 1rem;
+  }
+
+  .btn-nav {
+    justify-content: center;
+  }
+}
+
+/* ---------- موبایل ---------- */
+@media (max-width: 768px) {
+  .hero-inner {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    padding-block: 5.5rem 4rem;
+    text-align: center;
+  }
+
+  .hero-text {
+    padding: 1.75rem 1.5rem;
+    text-align: center;
+  }
+
+  .hero-subtitle {
+    margin-inline: auto;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+}
+
+/* ---------- بخش یارا برای چه کسانی است؟ (موبایل) ---------- */
+@media (max-width: 768px) {
+  .audience-title-box {
+    padding: 1.4rem 1.9rem;
+  }
+
+  .audience-desc-box {
+    padding: 1.25rem 1.5rem;
+  }
+}
+
+/* ---------- کارت‌های مخاطبان (تبلت و موبایل) ---------- */
+@media (max-width: 992px) {
+  .audience-grid {
+    gap: 1.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .audience-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .service-card {
+    padding: 1.6rem 1.4rem;
+  }
+}
+
+
+/* ---------- بخش پیچیدگی‌های درمان (موبایل) ---------- */
+@media (max-width: 768px) {
+  .journey-inner {
+    flex-direction: column;
+    align-items: center;
+    gap: 2.6rem;
+  }
+
+  .journey-text {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .journey-title-box {
+    align-self: center;
+  }
+
+  .journey-desc-box {
+    border-inline-start-width: 0;
+    border-block-start: 3px solid rgba(95, 175, 143, 0.65);
+    text-align: center;
+  }
+}
+
+/* ---------- بخش پلتفرم ما (موبایل) ---------- */
+@media (max-width: 992px) {
+  .platform-inner {
+    grid-template-columns: 1fr;
+    gap: 3.5rem;
+  }
+
+  .platform-text {
+    max-width: 620px;
+    margin-inline: auto;
+  }
+
+  .platform-list {
+    max-width: 520px;
+  }
+
+  .platform-visual {
+    min-height: 500px;
+  }
+
+  .phone-main {
+    width: min(248px, 74%);
+  }
+
+  .phone-side {
+    width: min(188px, 60%);
+    left: 0;
+    bottom: -1%;
+  }
+}
+
+@media (max-width: 480px) {
+  .platform-visual {
+    min-height: 440px;
+  }
+
+  .phone-main {
+    width: min(210px, 76%);
+  }
+
+  .phone-side {
+    width: min(150px, 58%);
+  }
+}
+
+/* ---------- کارت‌های مقالات (تبلت و موبایل) ---------- */
+@media (max-width: 992px) {
+  .blog-grid {
+    gap: 1.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .blog-title-box {
+    padding: 1.4rem 1.9rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .blog-card {
+    padding: 1.6rem 1.4rem;
+  }
+}
+
+/* ---------- کارت‌های مقالات (تبلت و موبایل) ---------- */
+@media (max-width: 992px) {
+  .blog-grid {
+    gap: 1.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .blog-title-box {
+    padding: 1.4rem 1.9rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .blog-card {
+    padding: 1.6rem 1.4rem;
+  }
+}
+
+/* ---------- فوتر (تبلت و موبایل) ---------- */
+@media (max-width: 992px) {
+  .footer-main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-main {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer-logo,
+  .footer-social {
+    justify-content: center;
+  }
+
+  .footer-tagline {
+    margin-inline: auto;
+  }
+
+  .footer-links a,
+  .footer-contact-plain {
+    justify-content: center;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* ---------- بخش چرا یارا؟ (تبلت و موبایل) ---------- */
+@media (max-width: 992px) {
+  .why-inner {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "content"
+      "visual";
+  }
+
+  .why-visual {
+    min-height: 420px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* ترتیب موبایل: Eyebrow → تیتر → متن → تصویر اپ → چهار ارزش */
+  .why-inner {
+    grid-template-areas:
+      "eyebrow"
+      "heading"
+      "lead"
+      "visual"
+      "values";
+  }
+
+  .why-content {
+    display: contents;
+  }
+
+  .why-eyebrow {
+    grid-area: eyebrow;
+    align-self: center;
+  }
+
+  .why-heading {
+    grid-area: heading;
+    justify-self: center;
+    text-align: center;
+  }
+
+  .why-lead {
+    grid-area: lead;
+    justify-self: center;
+    text-align: center;
+  }
+
+  .why-visual {
+    min-height: 380px;
+  }
+
+  .why-values {
+    grid-area: values;
+  }
+
+  .why-visual-phone {
+    width: min(210px, 62%);
+  }
+}
+
+/* ---------- سوالات متداول (موبایل) ---------- */
+@media (max-width: 600px) {
+  .faq-title-box {
+    padding: 1.4rem 1.9rem;
+  }
+
+  .faq-question {
+    padding: 1rem 1.1rem;
+    font-size: 0.98rem;
+  }
+
+  .faq-icon {
+    width: 27px;
+    height: 27px;
+  }
+
+  .faq-answer {
+    margin: 0 1.1rem;
+  }
+
+  .faq-answer p {
+    font-size: 0.92rem;
+  }
+}
+
+/* ---------- یارا چطور کار می‌کند (تبلت و موبایل) ---------- */
+@media (max-width: 900px) {
+  /* خط مرکزی به سمت راست منتقل می‌شود (RTL) */
+  .how-steps::before {
+    left: auto;
+    right: 29.5px; /* مرکز دایره ۶۲ پیکسلی در ستون سمت راست */
+    margin-left: 0;
+  }
+
+
+  .how-step {
+    grid-template-columns: 62px 1fr;
+    gap: 1.3rem;
+    padding-block: 1rem;
+  }
+
+  /* دایره‌ها — ستون سمت راست، متن — ستون چپ */
+  .how-node {
+    grid-column: 1;
+  }
+
+  .how-step:nth-child(odd) .how-body,
+  .how-step:nth-child(even) .how-body {
+    grid-column: 2;
+    justify-self: start;
+    text-align: right;
+    padding: 0;
+  }
+
+  .how-step-desc {
+    max-width: 100%;
+  }
+}
+
+/* ---------- یارا چطور کار می‌کند (موبایل کوچک) ---------- */
+@media (max-width: 480px) {
+  .how-step {
+    grid-template-columns: 56px 1fr;
+    gap: 1rem;
+  }
+
+  .how-node {
+    width: 56px;
+    height: 56px;
+    font-size: 0.95rem;
+  }
+
+  /* مرکز دایره ۵۶ پیکسلی — نیم‌عرض خط ۳ پیکسلی */
+  .how-steps::before {
+    right: 26.5px;
+  }
+}
+
+/* ---------- دعوت به اقدام نهایی (موبایل) ---------- */
+@media (max-width: 600px) {
+  .final-cta {
+    padding-block: 3.5rem;
+  }
+
+  .cta-panel {
+    border-radius: 22px;
+    padding: 2.6rem 1.4rem;
+  }
+
+  .cta-title {
+    font-size: clamp(1.4rem, 6vw, 1.7rem);
+  }
+
+  .cta-btn {
+    width: 100%;
+    max-width: 320px;
+    padding: 0.95rem 1.6rem;
+    font-size: 1rem;
+  }
+
+  .cta-platforms {
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+
+  .cta-platform {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.9rem;
+  }
+}
+
+
+/* ---------- اعتماد به یارا ---------- */
+@media (max-width: 992px) {
+  .trust-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .trust {
+    padding-block: 3.6rem;
+  }
+
+  .trust-grid {
+    grid-template-columns: 1fr;
+    gap: 1.3rem;
+  }
+
+  .trust-item:hover {
+    transform: none;
+  }
+}
+
+/* ---------- ناوبری هدر (تبلت و موبایل) ---------- */
+@media (max-width: 992px) {
+  .main-nav,
+  .nav-list {
+    gap: 0.25rem;
+  }
+
+  .main-nav {
+    gap: 1.25rem;
+  }
+}
+
+/* =========================================================
+   YARA HERO — DARK PREMIUM (ریسپانسیو)
+   ========================================================= */
+
+/* ---------- تبلت ---------- */
+@media (max-width: 992px) {
+  .hero-inner {
+    gap: 2rem;
+  }
+
+  .hero .hero-image {
+    width: min(360px, 100%);
+  }
+}
+
+/* ---------- موبایل ---------- */
+@media (max-width: 768px) {
+  .hero .hero-text {
+    padding: 0;
+  }
+
+  .hero .hero-image {
+    width: min(300px, 88%);
+  }
+
+  .hero-visual::before {
+    inset: 12% 0;
+    filter: blur(36px);
+  }
+
+  /* حلقه‌های تزئینی در موبایل کوچک‌تر و کمرنگ‌تر */
+  .hero-bg::before {
+    width: 640px;
+    height: 640px;
+    top: -340px;
+    inset-inline-start: -240px;
+  }
+
+  .hero-bg::after {
+    width: 420px;
+    height: 420px;
+    bottom: -240px;
+    inset-inline-end: -180px;
+  }
+}
+
+/* =========================================================
+   YARA — WHY CONTINUE TREATMENT (HORIZONTAL TIMELINE) — ریسپانسیو
+   ========================================================= */
+
+/* ---------- تبلت ---------- */
+@media (max-width: 992px) {
+  /* متن بالای خط زمانی */
+  .journey-text {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .journey-title-box {
+    align-self: center;
+  }
+
+  .journey-desc-box {
+    border-inline-start-width: 0;
+    border-block-start: 3px solid rgba(95, 175, 143, 0.65);
+  }
+
+  /* خط زمانی قابل اسکرول افقی — با اسکرول‌بار مخفی */
+  .journey-timeline {
+    justify-content: flex-start;
+    gap: 2.5rem;
+    padding-block: 0.5rem 1rem;
+    padding-inline: 1.5rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .journey-timeline::-webkit-scrollbar {
+    display: none;
+  }
+
+  .journey-timeline .tl-row {
+    flex: 0 0 auto;
+    width: 120px;
+  }
+
+  /* پخش‌کننده: تا لبه راست ناحیه اسکرول ادامه یابد (به‌جای ۱۰۰٪ عرض گره) */
+  .journey-timeline .tl-row:not(:last-child)::after {
+    width: calc(100% + 2.5rem);
+  }
+}
+
+/* ---------- موبایل ---------- */
+@media (max-width: 768px) {
+  .journey-inner {
+    width: 94%;
+  }
+
+  .journey-timeline .tl-row {
+    width: 104px;
+  }
+
+  .journey-timeline {
+    gap: 2rem;
+  }
+
+  .journey-timeline .tl-row:not(:last-child)::after {
+    width: calc(100% + 2rem);
+  }
+
+  .journey-timeline .tl-icon {
+    width: 52px;
+    height: 52px;
+    flex-basis: 52px;
+  }
+
+  .journey-timeline .tl-row::after {
+    top: 25px; /* مرکز آیکون ۵۲ پیکسلی */
+  }
+
+  .journey-timeline .tl-label {
+    font-size: 0.85rem;
+  }
+}
+
+/* =========================================================
+   YARA — WHY YARA SECTION (RESPONSIVE REFINEMENTS)
+   ========================================================= */
+@media (max-width: 992px) {
+  .why-yara .why-heading {
+    font-size: clamp(1.45rem, 4vw, 1.85rem);
+  }
+
+  /* فهرست ارزش‌ها در عرض کامل، مرتب و تراز */
+  .why-values {
+    margin-inline: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .why-value {
+    padding-inline-start: 1.35rem;
+    padding-block: 0.95rem;
+  }
+
+  .why-value::before {
+    height: 2.2rem;
+  }
+
+  .why-value.is-active .why-value-title {
+    font-size: 1.02rem;
+  }
+
+  .why-visual::after {
+    bottom: 4%;
+  }
+}
+
+/* =========================================================
+   YARA — HOW IT WORKS (RESPONSIVE REFINEMENTS)
+   ========================================================= */
+@media (max-width: 900px) {
+  /* چیدمان تک‌ستونه موجود: شماره راست، متن چپ — تصویر زیر متن */
+  .how-step:nth-child(odd) .how-media,
+  .how-step:nth-child(even) .how-media {
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: start;
+    width: min(100%, 340px);
+    margin-top: 0.5rem;
+  }
+
+  /* قطعه‌های خط زمانی — هم‌راستا با خط منتقل‌شده به راست */
+  .how-step::before,
+  .how-step::after {
+    left: auto;
+    margin-left: 0;
+    right: 30px; /* مرکز خط ۳ پیکسلی در right: 29.5px */
+  }
+}
+
+@media (max-width: 480px) {
+  .how-step:nth-child(odd) .how-media,
+  .how-step:nth-child(even) .how-media {
+    width: min(100%, 300px);
+  }
+
+  .how-step::before,
+  .how-step::after {
+    right: 27px; /* مرکز خط با دایره ۵۶ پیکسلی */
+  }
+
+  .how-step::before {
+    top: calc(50% + 30px);
+  }
+
+  .how-step::after {
+    height: calc(50% - 30px);
+  }
+}
+
+/* ---------- ویدئوهای بخش مخاطبان (موبایل) ---------- */
+@media (max-width: 600px) {
+  .audience-video {
+    border-radius: 13px;
+  }
+
+  .audience-video-play {
+    width: 50px;
+    height: 50px;
+  }
+
+  .audience-video-play svg {
+    width: 19px;
+    height: 19px;
+  }
+
+  .audience-video-label {
+    font-size: 0.74rem;
+  }
+}
+
+/* ---------- سوالات متداول (تبلت و موبایل) ---------- */
+@media (max-width: 768px) {
+  #faq .faq-list {
+    grid-template-columns: 1fr;
+  }
+
+  #faq .faq-title {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #faq .faq-question {
+    padding: 1rem 1.1rem;
+    font-size: 0.98rem;
+  }
+
+  #faq .faq-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  #faq .faq-answer {
+    margin: 0 1.1rem;
+  }
+
+  #faq .faq-answer p {
+    font-size: 0.93rem;
+  }
+}
+
+/* ---------- دعوت به اقدام نهایی (تبلت و موبایل) — نسخه فشرده ---------- */
+@media (max-width: 900px) {
+  .final-cta {
+    padding-block: clamp(2.4rem, 6vw, 3rem);
+  }
+
+  .cta-content {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "text"
+      "actions"
+      "platforms";
+    row-gap: 0.7rem;
+    text-align: start;
+  }
+
+  .cta-title {
+    text-align: start;
+  }
+
+  .cta-btn {
+    width: 100%;
+    max-width: 320px;
+    white-space: normal;
+  }
+
+  .cta-platforms {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 600px) {
+  .cta-panel {
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .cta-title {
+    font-size: clamp(1.35rem, 6vw, 1.6rem);
+  }
+
+  .cta-btn {
+    width: 100%;
+    max-width: 100%;
+    padding: 0.95rem 1.5rem;
+    font-size: 1rem;
+  }
+}

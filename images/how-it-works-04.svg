@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="پیگیری روند درمان">
+  <defs>
+    <linearGradient id="hiw4g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5FAF8F" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#5FAF8F" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+  <circle cx="86" cy="72" r="88" fill="url(#hiw4g)"/>
+  <circle cx="326" cy="238" r="56" fill="#5FAF8F" opacity="0.08"/>
+  <!-- نمودار روند -->
+  <rect x="112" y="64" width="176" height="172" rx="18" fill="#ffffff" stroke="#174A46" stroke-width="5"/>
+  <path d="M134 196l40-34 30 18 52-58" fill="none" stroke="#5FAF8F" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="134" cy="196" r="7" fill="#174A46" opacity="0.45"/>
+  <circle cx="174" cy="162" r="7" fill="#174A46" opacity="0.45"/>
+  <circle cx="204" cy="180" r="7" fill="#174A46" opacity="0.45"/>
+  <circle cx="256" cy="122" r="9" fill="#5FAF8F" stroke="#174A46" stroke-width="4"/>
+  <path d="M256 96v14M242 108h28" stroke="#5FAF8F" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+</svg>

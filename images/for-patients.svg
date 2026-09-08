@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" fill="none">
+  <!-- پس‌زمینه نرم -->
+  <circle cx="572" cy="40" r="130" fill="#5FAF8F" opacity="0.16"/>
+  <circle cx="40" cy="272" r="115" fill="#174A46" opacity="0.07"/>
+  <circle cx="96" cy="62" r="6" fill="#5FAF8F" opacity="0.35"/>
+  <circle cx="170" cy="140" r="5" fill="#174A46" opacity="0.16"/>
+  <circle cx="612" cy="200" r="7" fill="#5FAF8F" opacity="0.3"/>
+  <circle cx="148" cy="248" r="4" fill="#174A46" opacity="0.2"/>
+
+  <!-- گوشی اپلیکیشن -->
+  <rect x="258" y="42" width="192" height="216" rx="26" fill="#FFFFFF" stroke="#174A46" stroke-width="3"/>
+  <rect x="300" y="66" width="108" height="7" rx="3.5" fill="#174A46" opacity="0.14"/>
+
+  <!-- ردیف یادآوری ۱ -->
+  <rect x="278" y="92" width="152" height="28" rx="14" fill="#DCEFE4"/>
+  <circle cx="296" cy="106" r="9" fill="#5FAF8F"/>
+  <path d="M 292.4 106 L 295 108.6 L 299.8 103.6" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="312" y="102" width="86" height="8" rx="4" fill="#174A46" opacity="0.2"/>
+
+  <!-- ردیف یادآوری ۲ -->
+  <rect x="278" y="130" width="152" height="28" rx="14" fill="#E7F0E8"/>
+  <circle cx="296" cy="144" r="9" fill="#5FAF8F"/>
+  <path d="M 292.4 144 L 295 146.6 L 299.8 141.6" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="312" y="140" width="96" height="8" rx="4" fill="#174A46" opacity="0.16"/>
+
+  <!-- ردیف یادآوری ۳ -->
+  <rect x="278" y="168" width="110" height="28" rx="14" fill="#FFFFFF" stroke="#5FAF8F" stroke-width="2"/>
+  <circle cx="296" cy="182" r="8" fill="none" stroke="#5FAF8F" stroke-width="2.4"/>
+  <rect x="312" y="178" width="60" height="8" rx="4" fill="#174A46" opacity="0.12"/>
+
+  <!-- قلب پایین صفحه گوشی -->
+  <path d="M 354 246 C 342 235 333 230 333 221 C 333 215 337 211 342 211 C 347 211 351 214 354 219 C 357 214 361 211 366 211 C 371 211 375 215 375 221 C 375 230 366 235 354 246 Z" stroke="#5FAF8F" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- نشان زنگوله -->
+  <circle cx="196" cy="92" r="40" fill="#FFFFFF" stroke="#5FAF8F" stroke-width="4"/>
+  <g transform="translate(177 73) scale(1.6)">
+    <path d="M 12 4.4 a 5.1 5.1 0 0 1 5.1 5.1 v 3.5 l 1.7 2.7 H 5.2 l 1.7 -2.7 V 9.5 A 5.1 5.1 0 0 1 12 4.4 Z" stroke="#174A46" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 10.1 18.7 a 2 2 0 0 0 3.8 0" stroke="#174A46" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M 18.5 3.1 l 0.6 1.2 l 1.2 0.6 l -1.2 0.6 l -0.6 1.2 l -0.6 -1.2 l -1.2 -0.6 l 1.2 -0.6 Z" fill="#5FAF8F"/>
+  </g>
+
+  <!-- نشان تقویم -->
+  <circle cx="472" cy="150" r="40" fill="#FFFFFF" stroke="#5FAF8F" stroke-width="4"/>
+  <g transform="translate(453 131) scale(1.6)">
+    <rect x="3.5" y="5" width="17" height="15.5" rx="3" stroke="#174A46" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 8 2.8 V 7.4 M 16 2.8 V 7.4 M 3.5 9.8 h 17" stroke="#174A46" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M 9.5 14.4 l 2 2 l 3.4 -3.8" stroke="#5FAF8F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- نشان قرص -->
+  <circle cx="230" cy="238" r="36" fill="#FFFFFF" stroke="#5FAF8F" stroke-width="4"/>
+  <g transform="translate(213 221) scale(1.4)">
+    <g transform="rotate(-45 12 12)">
+      <rect x="4.8" y="9.4" width="14.4" height="5.2" rx="2.6" fill="#DCEFE4" stroke="#174A46" stroke-width="1.6"/>
+      <path d="M 12 9.4 v 5.2" stroke="#174A46" stroke-width="1.4"/>
+    </g>
+  </g>
+</svg>
